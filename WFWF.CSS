@@ -1,1 +1,90 @@
-
+body {
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(black_background_pattern_light_texture_55291_2560x1440_yapfiles.ru.jpg);
+    color: beige;
+}
+.contain1 {
+    display: flex;
+    border: 3px solid beige;
+    padding: 21px;
+    border-radius: 21px;
+}
+.contain2 {
+    display: block;
+    margin-left: 100px;
+}
+.image {
+    width: 277px;
+    border: 2.5px solid whitesmoke;
+    border-radius: 21px;
+}
+@media(max-width:910px){
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+    .contain1 {
+        height: 200px;
+    }
+    .contain2 {
+        font-size: small;
+        margin-left: 50px;
+    }
+    .contain4 {
+        display: flex;
+    }
+    .contain4 a {
+        margin-top: 15.5px;
+        margin-left: 5px;
+    }
+    .contain3 .text2 {
+        font-size: 27px;
+    }
+}    
+.contain3 {
+    border: 3px solid beige;
+    padding: 21px;
+    border-radius: 21px;
+    margin-top: 37px;
+    padding-top: 0;
+}
+a {
+    text-decoration: none;
+    color: #3786fc;
+}
+a:hover {
+    color: brown;
+}
+.text {
+    font-weight: 200;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.text2 {
+    text-align: center;
+    padding-left: 35px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.table {
+    text-align: center;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 35px;
+}
+.contain5 {
+    width: 190px;
+    margin-left: 540px;
+    margin-right: 170px;
+}
+.contain4 p{
+    margin-bottom: 17px;
+    margin-top: 12px;
+}
+@media(max-width:1289px) {
+    .contain5 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}    
